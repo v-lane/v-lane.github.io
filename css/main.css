@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(245, 250, 252);
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 5px 5vw;
+  max-width: 1200px;
+}
+
+section {
+  padding: 5px 0;
+}
+
+nav {
+  background-color: var(--bs-primary-bg-subtle);
+}
+
+.nav-p {
+  margin: 0 5vw;
+  font-weight: 600;
+}
+
+.nav-item:hover {
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  background-color: var(--bs-primary-bg-subtle);
+}
+
+.dropdown-item {
+  background-color: var(--bs-primary-bg-subtle);
+}
+
+.dropdown-item:hover {
+  background-color: var(--bs-primary-bg-subtle);
+  font-weight: bold;
+}
+
+.dropdown-toggle.show {
+    font-weight: bold;
+}
+
+
