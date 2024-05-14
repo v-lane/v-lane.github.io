@@ -7,6 +7,10 @@ p {
   padding: 0;
 }
 
+hr {
+  margin: 2em 0;
+}
+
 main {
   margin: 5px 5vw;
   max-width: 1200px;
@@ -43,7 +47,5 @@ nav {
 }
 
 .dropdown-toggle.show {
-    font-weight: bold;
+  font-weight: bold;
 }
-
-
