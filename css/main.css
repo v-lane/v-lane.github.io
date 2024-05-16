@@ -7,6 +7,28 @@ p {
   padding: 0;
 }
 
+table {
+  border: 1.5px solid rgba(128,128,128,0.5);
+}
+
+th {
+  border: 1.5px solid rgba(128,128,128,0.5);
+  border-left: 1px solid rgba(128,128,128,0.5);
+  border-right: 1px solid rgba(128,128,128,0.5);
+  padding: 0 1em 0 ;
+}
+
+td {
+  border: 1px solid  rgba(128,128,128,0.4);
+  border-top: 0;
+  border-bottom: 0;
+  padding: 0 1em 0 ;
+}
+
+td ul {
+  list-style-type: none;
+}
+
 hr {
   margin: 2em 0;
 }
@@ -22,6 +44,10 @@ section {
 
 nav {
   background-color: var(--bs-primary-bg-subtle);
+}
+
+.card-text {
+  margin-bottom: 1em;
 }
 
 .nav-p {
